@@ -57,11 +57,30 @@ cd ecogame
 
 ## 3. Instale as dependências
 
-```bash
-npm install
-```
+Isso é muito importante:
+Depois de baixar o repositório na sua máquina, exclua os seguintes arquivos:
+
+- .next
+- node_modules
+- package-lock.jason 
+
+e depois no terminal execute o npm install para reinstalá-las, se não fizer isso, não vai funcionar
 
 ## 4. Configure o Firebase
+O projeto fui criado usando o Firebase, caso não queira usá-lo pode usar outro, mas precisa de um banco para fazer o cadastro de usuário,
+A estrutura é essa:
+
+Usuário(User)
+- id
+- nickname
+- email
+- senha
+- nível
+- XP
+
+A senha é salva de uma maneira diferente, cada sistema de banco de dados faz de uma forma, mas no Firebase é bem simples, uma lida básica na documentação e irá entender !  
+
+Aproveite o projeto para aprender !
 
 Crie um arquivo `.env.local`
 
