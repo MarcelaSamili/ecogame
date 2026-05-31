@@ -57,6 +57,15 @@ cd ecogame
 
 ## 3. Instale as dependências
 
+Isso é muito importante:
+Depois de baixar o repositório na sua máquina, exclua os seguintes arquivos:
+
+.next
+node_modules
+package-lock.jason 
+
+e depois no 
+
 ```bash
 npm install
 ```
