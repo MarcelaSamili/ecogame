@@ -2,6 +2,8 @@
 
 EcoGame é um aplicativo web gamificado inspirado no estilo Duolingo, criado para ensinar sustentabilidade, reciclagem e energia renovável de forma interativa.
 
+Link do projeto funcionando -> https://ecogame-lzzru17ag-marcela-barrosos-projects.vercel.app/
+
 O projeto foi desenvolvido como trabalho acadêmico utilizando:
 
 - Next.js
