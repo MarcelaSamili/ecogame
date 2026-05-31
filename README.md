@@ -60,15 +60,11 @@ cd ecogame
 Isso é muito importante:
 Depois de baixar o repositório na sua máquina, exclua os seguintes arquivos:
 
-.next
-node_modules
-package-lock.jason 
+- .next
+- node_modules
+- package-lock.jason 
 
-e depois no 
-
-```bash
-npm install
-```
+e depois no terminal execute o npm install para reinstalá-las, se não fizer isso, não vai funcionar
 
 ## 4. Configure o Firebase
 
